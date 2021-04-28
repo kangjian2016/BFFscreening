@@ -1,13 +1,14 @@
 Package: BFFscreening
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Bayesian Fast Feature Screening
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Jian Kang <jiankang@umich.edu>
+Maintainer: Jian Kang <jiankang@umich.edu>
+Description: Implement the Bayesian fast feature screening methods with application to neuroimaging data.
+License: GPL
 Encoding: UTF-8
 LazyData: true
-Imports: Rcpp (>= 1.0.6)
-LinkingTo: Rcpp
+Imports: Rcpp (>= 1.0.6), neurobase
+LinkingTo: Rcpp, RcppArmadillo, RNifti
+Depends: Rcpp (>= 1.0.6), RcppArmadillo, RNifti, neurobase
+RoxygenNote: 7.1.1
